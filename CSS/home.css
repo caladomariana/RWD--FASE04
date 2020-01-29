@@ -26,7 +26,8 @@
         height: auto;
         grid-row-start: 1;
         grid-row-end: 3;
-        padding: 10px;
+        padding: 20px;
+        padding-top: 0px;
     }
 
     #seta1{
@@ -124,7 +125,7 @@
     }
 
     #slideshow {
-        height: 300px;
+        height: 320px;
         display: grid;
         grid-template-columns: 1fr auto 1fr;
         grid-template-rows: auto;
@@ -141,7 +142,8 @@
         height: auto;
         grid-row-start: 1;
         grid-row-end: 3;
-        padding: 25px;
+        padding: 20px;
+        padding-top: 0px;
     }
 
     #seta1{
@@ -254,11 +256,12 @@
     }
 
     .mySlides{
-        width: 250px;
+        width: 400px;
         height: auto;
         grid-row-start: 1;
         grid-row-end: 3;
-        padding: 25px;
+        padding: 50px;
+        padding-top: 0px;
     }
 
     #seta1{
@@ -269,7 +272,6 @@
     #seta2{
         width: auto;
         height: 30px;
-        grid-row-start: 2;
     }
 
     #hrmain{
@@ -298,7 +300,7 @@
     .title{
         z-index: 0;
         position: inherit;
-        border-radius: 5px;
+        border-radius: 10px;
         display: grid;
         grid-template-columns: 2fr 1fr;
         background-color: white;
